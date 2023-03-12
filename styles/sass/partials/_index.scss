@@ -1,0 +1,41 @@
+@use './variables' as *;
+
+
+// HEADER
+
+header {
+    height: 80vh;
+    background-color: #CFC5B1;
+    position: relative;
+
+    .profile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        width: 65%;
+
+        button {
+            width: 20%;
+        }
+    }
+}
+
+
+
+.languageBar {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    width: 83%;
+    margin: 0 auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 20%;
+    
+    border-radius: 10px;
+    background-color: #7F7E7C;
+
+    
+}

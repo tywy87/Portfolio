@@ -1,1 +1,29 @@
 @use './variables';
+
+// H2, Project, Project Title, -> Reg 400
+// font-family: 'Cinzel', serif;
+
+// <P>, Form
+// font-family: 'Montserrat', sans-serif;
+
+// H1, 
+// font-family: 'Vollkorn SC', serif;
+
+h1 {
+    font-family: 'Vollkorn SC', serif;
+    font-weight: 400;
+    font-size: 5rem;
+    color: #3C2E31;
+}
+
+h2 {
+    font-family: 'Cinzel', serif;
+    font-weight: 400;
+    color: #3C2E31;
+}
+
+p, form {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #3C2E31;
+}

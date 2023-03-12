@@ -246,4 +246,53 @@ img {
   width: 90%;
   margin: 0 auto;
   height: 100%;
+}
+
+h1 {
+  font-family: "Vollkorn SC", serif;
+  font-weight: 400;
+  font-size: 5rem;
+  color: #3C2E31;
+}
+
+h2 {
+  font-family: "Cinzel", serif;
+  font-weight: 400;
+  color: #3C2E31;
+}
+
+p, form {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #3C2E31;
+}
+
+header {
+  height: 80vh;
+  background-color: #CFC5B1;
+  position: relative;
+}
+header .profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 65%;
+}
+header .profile button {
+  width: 20%;
+}
+
+.languageBar {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  width: 83%;
+  margin: 0 auto;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 20%;
+  border-radius: 10px;
+  background-color: #7F7E7C;
 }/*# sourceMappingURL=style.css.map */

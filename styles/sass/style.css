@@ -251,7 +251,7 @@ img {
 h1 {
   font-family: "Vollkorn SC", serif;
   font-weight: 400;
-  font-size: 5rem;
+  font-size: 6rem;
   color: #3C2E31;
 }
 
@@ -265,12 +265,12 @@ p, form {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: #3C2E31;
+  line-height: 20px;
 }
 
 header {
-  height: 80vh;
+  height: 70vh;
   background-color: #CFC5B1;
-  position: relative;
 }
 header .profile {
   display: flex;
@@ -279,20 +279,75 @@ header .profile {
   height: 100%;
   width: 65%;
 }
-header .profile button {
+header .profile .getInTouch {
   width: 20%;
+  margin-top: 10px;
+  border: 3px solid #3C2E31;
+  border-radius: 10px;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: #3C2E31;
+  transition: all 0.3s ease;
+}
+header .profile .getInTouch a {
+  text-decoration: none;
+  color: #3C2E31;
+}
+header .profile .getInTouch:hover {
+  background-color: #3C2E31;
+}
+header .profile .getInTouch:hover a {
+  color: #fff;
+}
+header .headerIcons {
+  display: flex;
+}
+header .headerIcons a {
+  width: 50px;
+  transition: all 0.3s ease;
+}
+header .headerIcons a:nth-child(2) {
+  width: 50px;
+}
+header .headerIcons a img {
+  width: 100%;
+  height: auto;
+}
+header .headerIcons a:hover {
+  width: 60px;
+}
+
+.projects {
+  height: 100vh;
 }
 
 .languageBar {
   display: flex;
   justify-content: space-around;
-  position: absolute;
-  width: 83%;
+  position: -webkit-sticky;
+  position: sticky;
+  width: 100%;
   margin: 0 auto;
-  bottom: 0;
+  top: 0;
   left: 0;
   right: 0;
-  height: 20%;
+  height: 16%;
+  z-index: 1;
   border-radius: 10px;
   background-color: #7F7E7C;
+  box-shadow: 10px 5px 5px black;
+}
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project {
+  border: 3px solid black;
+  padding: 10px;
+  margin: 10px;
+  width: calc(50% - 20px);
 }/*# sourceMappingURL=style.css.map */

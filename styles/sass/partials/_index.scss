@@ -4,9 +4,8 @@
 // HEADER
 
 header {
-    height: 80vh;
+    height: 70vh;
     background-color: #CFC5B1;
-    position: relative;
 
     .profile {
         display: flex;
@@ -15,27 +14,95 @@ header {
         height: 100%;
         width: 65%;
 
-        button {
+        .getInTouch {
             width: 20%;
-        }
+            margin-top: 10px;
+            border: 3px solid #3C2E31;
+            border-radius: 10px;
+            text-transform: uppercase;
+            padding: 10px 20px;
+            background-color: transparent;
+            color: #3C2E31;
+            transition: all 0.3s ease;
+
+            a {
+                text-decoration: none;
+                color: #3C2E31;
+            }
+         }
+         
+         .getInTouch:hover {
+            background-color: #3C2E31;
+            
+            a {
+                color: #fff;
+            }
+         }
+         
     }
+
+    .headerIcons {
+        display: flex;
+
+        a {
+           width: 50px;
+           transition: all 0.3s ease;
+     
+           &:nth-child(2) {
+              width: 50px;
+           }
+     
+           img {
+              width: 100%;
+              height: auto;
+           }
+
+           &:hover {
+            width: 60px;
+           }
+        }
+     }
+     
 }
 
 
+// Language Bar
+
+.projects {
+    height: 100vh;
+    // position: relative;
+}
 
 .languageBar {
     display: flex;
     justify-content: space-around;
-    position: absolute;
-    width: 83%;
+    position: sticky;
+    width: 100%;
     margin: 0 auto;
-    bottom: 0;
+    top: 0;
     left: 0;
     right: 0;
-    height: 20%;
-    
+    height: 16%;
+    z-index: 1;
+
     border-radius: 10px;
     background-color: #7F7E7C;
-
+    box-shadow: 10px 5px 5px black;
+// icons color: #6C6B69
     
 }
+
+// PROJECTS
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+ 
+ .project {
+    border: 3px solid black;
+    padding: 10px;
+    margin: 10px;
+    width: calc(50% - 20px);
+ }

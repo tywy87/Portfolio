@@ -42,11 +42,11 @@
                 <img src="./assets/icons8-firebase.svg" alt="Firebase">
             </div>
             <!-- Project arrow -->
-            <h3>Projects</h3>
+            <h3 class="projectTitle">Projects</h3>
             
             <div class="project-container">
-                <!-- Project 1 -->
-                <div class="project">
+            <!-- Project 1 -->
+                <div class="project large">
                     <h3>Title</h3>
                     <p>description</p>
                     <p>languages</p>
@@ -54,7 +54,7 @@
                     <button><a href=""></a></button> 
                 </div>
                 <!-- Project 2 -->
-                <div class="project">
+                <div class="project small">
                     <h3>Title</h3>
                     <p>description</p>
                     <p>languages</p>
@@ -62,7 +62,7 @@
                     <button><a href=""></a></button> 
                 </div>
                 <!-- Project 3 -->
-                <div class="project">
+                <div class="project small">
                     <h3>Title</h3>
                     <p>description</p>
                     <p>languages</p>
@@ -70,7 +70,7 @@
                     <button><a href=""></a></button> 
                 </div>
                 <!-- Project 4 -->
-                <div class="project">
+                <div class="project large">
                     <h3>Title</h3>
                     <p>description</p>
                     <p>languages</p>
@@ -81,31 +81,51 @@
         </div>
     </section>
     <!-- About ME -->
-    <section>
+    <section class="aboutMe">
         <div class="wrapper">
             <h2>About me</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis est hic eum dicta rerum quasi, maxime vero quod dolore repudiandae sapiente eos sunt natus error ratione laudantium officia odio? Et fugit molestias unde fuga consectetur?</p>
-            <div><img src="" alt=""></div>
+            <div><img src="./assets/me.JPG" alt=""></div>
         </div>
     </section>
-    <!-- Get in Touch -->
+    <!-- Contact Me -->
     <section id="contactForm">
         <div class="wrapper">
-            <form action="">
-
-            </form>
-            <div><img src="" alt=""></div>
+          <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+      
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+      
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+      
+            <button type="submit">Send</button>
+          </form>
         </div>
-    </section>
+      </section>
+      
     <!-- Footer -->
     <footer>
         <div class="wrapper">
+          <div class="footer-top">
+            <h4>Contact</h4>
+            <ul>
+              <li><a href="mailto:tylerwyles@example.com">tylerwyles@example.com</a></li>
+              <li><a href="tel:+15555555555">(555) 555-5555</a></li>
+            </ul>
+          </div>
+          <div class="footer-bottom">
             <p>Product of Tyler Wyles</p>
+            <div class="social-icons">
+                <a href="https://github.com/tywy87"><img src="./assets/icons8-github.svg" alt=""></a>
+                <a href="https://www.linkedin.com/in/tylerwyles/"><img src="./assets/icons8-linkedin.svg" alt=""></a>
+            </div>
+          </div>
         </div>
-    </footer>
+      </footer>
+      
 
-    <img src="./assets/IMG_2369.jpeg" alt="Under Construction Graphic" class="construction">
-        <p>But don't worry, I'm working hard to bring you the best portfolio possible!</p>
-        <div class="soon">COMING SOON</div>
 </body>
 </html>

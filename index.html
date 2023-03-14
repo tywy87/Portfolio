@@ -33,9 +33,9 @@
         <div class="wrapper">
             <!-- Code Language Icons -->
             <div class="languageBar">
-                <img src="./assets/icons8-html-5.svg" alt="HTML5">
-                <img src="./assets/icons8-css3.svg" alt="CSS3">
-                <img src="./assets/icons8-javascript.svg" alt="JavaScript">
+                <img src="./assets/icons8-html-5.svg" alt="HTML5" class="fadeOut">
+                <img src="./assets/icons8-css3.svg" alt="CSS3" class="fadeOut">
+                <img src="./assets/icons8-javascript.svg" alt="JavaScript" class="fadeOut">
                 <img src="./assets/icons8-react-native.svg" alt="React">
                 <img src="./assets/icons8-sass.svg" alt="SASS">
                 <img src="./assets/icons8-jquery.svg" alt="JQuery">
@@ -50,6 +50,11 @@
                     <h3>Title</h3>
                     <p>description</p>
                     <p>languages</p>
+                    <div class="icons">
+                        <img class="html-icon" src="./assets/icons8-html-5.svg" alt="HTML5">
+                        <img class="css-icon" src="./assets/icons8-css3.svg" alt="CSS3">
+                        <img class="js-icon" src="./assets/icons8-javascript.svg" alt="JavaScript">
+                      </div>
                     <button><a href=""></a></button>
                     <button><a href=""></a></button> 
                 </div>
@@ -83,8 +88,10 @@
     <!-- About ME -->
     <section class="aboutMe">
         <div class="wrapper">
-            <h2>About me</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis est hic eum dicta rerum quasi, maxime vero quod dolore repudiandae sapiente eos sunt natus error ratione laudantium officia odio? Et fugit molestias unde fuga consectetur?</p>
+            <div class="aboutMeContainer">
+                <h2>About me</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis est hic eum dicta rerum quasi, maxime vero quod dolore repudiandae sapiente eos sunt natus error ratione laudantium officia odio? Et fugit molestias unde fuga consectetur?</p>
+              </div>
             <div><img src="./assets/me.JPG" alt=""></div>
         </div>
     </section>
@@ -109,13 +116,13 @@
     <!-- Footer -->
     <footer>
         <div class="wrapper">
-          <div class="footer-top">
+          <!-- <div class="footer-top">
             <h4>Contact</h4>
             <ul>
               <li><a href="mailto:tylerwyles@example.com">tylerwyles@example.com</a></li>
               <li><a href="tel:+15555555555">(555) 555-5555</a></li>
             </ul>
-          </div>
+          </div> -->
           <div class="footer-bottom">
             <p>Product of Tyler Wyles</p>
             <div class="social-icons">
